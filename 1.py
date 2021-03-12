@@ -1,9 +1,9 @@
-def show_stars(rows):
-    if rows == 5:
-        print("*")
-        print("**")
-        print("***")
-        print("****")
-        print("*****")
+stars = int(input("Введите количество звездочек :"))
 
-show_stars(5)
+def show_stars(rows):
+    stars = " "
+    for i in range(rows):
+        stars +="*"
+        print(stars)
+
+show_stars(stars)
