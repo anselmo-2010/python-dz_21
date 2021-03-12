@@ -1,4 +1,5 @@
-def fizz_buzz(num):
+def fizz_buzz():
+    num = int(input("Введите число :"))
     if num % 3 == 0 and num % 5 != 0:
         print("Fizz")
     elif num % 5 == 0 and num % 3 != 0:
@@ -8,4 +9,4 @@ def fizz_buzz(num):
     else:
         print(num)
 
-fizz_buzz(4)
+fizz_buzz()
